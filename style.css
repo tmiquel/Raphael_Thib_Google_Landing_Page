@@ -1,0 +1,14 @@
+#cont
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+	align-items: center;
+	height: 600px;
+}
+
+.border-flex
+{
+	border: 2px solid red;
+}
+
