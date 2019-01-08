@@ -2,56 +2,86 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+
 	<title>Google</title>
+
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" href="style.css">
 </head>
 <body class="border-flex">
 	<header>
-		<h3 class="border-flex nav-bar-item" id="gmail"> <a href="https://mail.google.com/mail/?tab=wm">Gmail</a></h3>
-		<h3 class="border-flex nav-bar-item" id="images"><a href="https://www.google.fr/imghp?hl=fr&tab=wi">Images</a></h3>
+		<h3 class="border-flex nav-bar-item" id="gmail">
+			<a href="https://mail.google.com/mail/?tab=wm">Gmail</a>
+		</h3>
 
-		<svg class="nav-bar-item nav-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="24" height="24" viewBox="0 0 224 224" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g id="Layer_1" fill="#666666"><path d="M70,70h-37.33333v-37.33333h37.33333z"></path><path d="M130.66667,70h-37.33333v-37.33333h37.33333z"></path><path d="M191.33333,70h-37.33333v-37.33333h37.33333z"></path><path d="M70,130.66667h-37.33333v-37.33333h37.33333z"></path><path d="M130.66667,130.66667h-37.33333v-37.33333h37.33333z"></path><path d="M191.33333,130.66667h-37.33333v-37.33333h37.33333z"></path><path d="M70,191.33333h-37.33333v-37.33333h37.33333z"></path><path d="M130.66667,191.33333h-37.33333v-37.33333h37.33333z"></path><path d="M191.33333,191.33333h-37.33333v-37.33333h37.33333z"></path></g><path d="M112,224c-61.85589,0 -112,-50.14411 -112,-112v0c0,-61.85589 50.14411,-112 112,-112v0c61.85589,0 112,50.14411 112,112v0c0,61.85589 -50.14411,112 -112,112z" fill="none"></path><path d="M112,219.52c-59.38166,0 -107.52,-48.13834 -107.52,-107.52v0c0,-59.38166 48.13834,-107.52 107.52,-107.52h0c59.38166,0 107.52,48.13834 107.52,107.52v0c0,59.38166 -48.13834,107.52 -107.52,107.52z" fill="none"></path></g></svg>
+		<h3 class="border-flex nav-bar-item" id="images">
+			<a href="https://www.google.fr/imghp?hl=fr&tab=wi">Images</a>
+		</h3>
 
-		<button class="border-flex" id="connexion">Connexion</button>
+		<svg class="nav-bar-item nav-icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="24" height="24" viewBox="0 0 224 224" style=" fill:#000000;">
+			<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,224v-224h224v224z" fill="none"></path><g id="Layer_1" fill="#666666"><path d="M70,70h-37.33333v-37.33333h37.33333z"></path><path d="M130.66667,70h-37.33333v-37.33333h37.33333z"></path><path d="M191.33333,70h-37.33333v-37.33333h37.33333z"></path><path d="M70,130.66667h-37.33333v-37.33333h37.33333z"></path><path d="M130.66667,130.66667h-37.33333v-37.33333h37.33333z"></path><path d="M191.33333,130.66667h-37.33333v-37.33333h37.33333z"></path><path d="M70,191.33333h-37.33333v-37.33333h37.33333z"></path><path d="M130.66667,191.33333h-37.33333v-37.33333h37.33333z"></path><path d="M191.33333,191.33333h-37.33333v-37.33333h37.33333z"></path></g><path d="M112,224c-61.85589,0 -112,-50.14411 -112,-112v0c0,-61.85589 50.14411,-112 112,-112v0c61.85589,0 112,50.14411 112,112v0c0,61.85589 -50.14411,112 -112,112z" fill="none"></path><path d="M112,219.52c-59.38166,0 -107.52,-48.13834 -107.52,-107.52v0c0,-59.38166 48.13834,-107.52 107.52,-107.52h0c59.38166,0 107.52,48.13834 107.52,107.52v0c0,59.38166 -48.13834,107.52 -107.52,107.52z" fill="none"></path></g>
+		</svg>
 
+		<button id="connexion">Connexion</button>
 	</header>
 	<content id="cont" class="border-flex">
-		<div class="border-flex" id="img-container"> <img src="https://www.google.fr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+		<div class="border-flex item-content" id="img-container">
+			<img src="https://www.google.fr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
 		</div>
 		
-		<div class="border-flex">
-		<input type="search" id="site-search" name="q"
-    	aria-label="Search through site content">
+		<div class="border-flex item-content">
+			<form>
+				<input type="text" id="site-search">
+			</form>
     	</div>
 
-    	<div class="border-flex">
-		<button class="search">Recherche Google</button>
-		<button class="search">J'ai de la chance</button>
+    	<div class="border-flex item-content">
+
+			<button class="search">Recherche Google</button>
+
+			<button class="search">J'ai de la chance</button>
 		</div>
 	</content>
 	<footer class="border-flex">
-		<h2 class="border-flex"> France</h2>
-		<hr size="1" color="#737373">
+		<div>
+			<h2 class="border-flex">France</h2>
+		</div>
+
 		<div id="lower-footer" class="border-flex">
 			<div class="border-flex" id="left-footer"> 
 
-				<h3 class="border-flex txt-left-footer" id="publicite"> <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a>	</h3>
+				<h3 class="border-flex txt-left-footer" id="publicite">
+					<a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a>
+				</h3>
 
-				<h3 class="border-flex txt-left-footer" id="entreprise"> <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Entreprise</a>	</h3>
+				<h3 class="border-flex txt-left-footer" id="entreprise">
+					<a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Entreprise</a>
+				</h3>
 
-				<h3 class="border-flex txt-left-footer" id="entreprise"> <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">A propos</a>	</h3>
+				<h3 class="border-flex txt-left-footer" id="entreprise">
+					<a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">A propos</a>
+				</h3>
 			</div>
+
 			<div class="border-flex" id="right-footer"> 
 
-				<h3 class="border-flex txt-right-footer" id="info_consommateurs"> <a href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&sa=X&ved=0ahUKEwibwJaPk97fAhUlgM4BHUtAClkQ9NMDCAg&visit_id=636825465417532755-3710748696&rd=1">Info consommateurs</a>	</h3>
+				<h3 class="border-flex txt-right-footer" id="info_consommateurs">
+					<a href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&sa=X&ved=0ahUKEwibwJaPk97fAhUlgM4BHUtAClkQ9NMDCAg&visit_id=636825465417532755-3710748696&rd=1">Info consommateurs</a>
+				</h3>
 
-				<h3 class="border-flex txt-right-footer" id="confidentiality"> <a href="https://policies.google.com/privacy?hl=fr&gl=fr">Confidentialité</a>	</h3>
+				<h3 class="border-flex txt-right-footer" id="confidentiality">
+					<a href="https://policies.google.com/privacy?hl=fr&gl=fr">Confidentialité</a>
+				</h3>
 
-				<h3 class="border-flex txt-right-footer" id="conditions"> <a href="https://policies.google.com/terms?hl=fr&gl=fr">Conditions</a>	</h3>
+				<h3 class="border-flex txt-right-footer" id="conditions">
+					<a href="https://policies.google.com/terms?hl=fr&gl=fr">Conditions</a>
+				</h3>
 
-				<h3 class="border-flex txt-right-footer" id="parametres"> <a href="https://www.google.com/preferences?hl=fr">Paramètres</a>	</h3>
+				<h3 class="border-flex txt-right-footer" id="parametres">
+					<a href="https://www.google.com/preferences?hl=fr">Paramètres</a>
+				</h3>
 			</div>
 		</div>
 	</footer>	
