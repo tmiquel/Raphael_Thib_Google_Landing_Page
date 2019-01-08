@@ -1,5 +1,11 @@
-.border-flex {
-	border: 0px solid red;
+/*.border-flex {
+	border: 2px solid red;
+}*/
+
+html {
+	height: 100%;
+	display: flex;
+>>>>>>> Stashed changes
 }
 
 body {
@@ -50,7 +56,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-
 #connexion {
     background-color:#4285f4;
     height:30px;
@@ -62,24 +67,45 @@ a:hover {
     color:white;
 }
 
-
-
 #connexion-link:hover {
     text-decoration: none;
+	/*box-shadow:
+      rgba(0,0,0,0.15)
+      0px 100px;*/
+}
 
-/*    box-shadow:
-        rgba(0,0,0,0.15)
-        0px 100px;*/
-    }
+.nav-bar-item {
+	margin-left: 15px;
+}
 
+.nav-icon{
+	margin-top: 9px;
+}
 
 #cont {
     display: flex;
     flex-flow: column;
     justify-content: center;
 	align-items: center;
-	height: 650px;
+	height: 600px;
 	text-align: center;
+}
+
+.search {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
 }
 
 #lower-footer {
@@ -103,12 +129,4 @@ a:hover {
 
 .txt-right-footer {
 	margin-left: 30px;
-}
-
-.nav-bar-item {
-	margin-left: 15px;
-}
-
-.nav-icon{
-	margin-top: 9px;
 }
