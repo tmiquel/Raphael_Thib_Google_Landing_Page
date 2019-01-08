@@ -53,17 +53,16 @@ a:hover {
 
 #connexion {
     background-color:#4285f4;
-    color: #ffff;
-    font-weight: bold;
     height:30px;
-    width:150px;
+    width:100px;
     border-radius: 1px;
+    margin: 5px 10px 10px 10px;
+    padding: 5px 5px 8px 5px;
+    font-weight: bold;
+    color:white;
 }
 
 
-#connexion-link {
-    
-}
 
 #connexion-link:hover {
     text-decoration: none;
