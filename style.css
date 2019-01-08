@@ -1,5 +1,5 @@
 .border-flex {
-	border: 2px solid red;
+	border: 0px solid red;
 }
 
 body {
@@ -35,6 +35,30 @@ a:hover {
 	color: #737373;
 	text-decoration: underline;
 }
+
+
+#connexion {
+    background-color:#4285f4;
+    color: #ffff;
+    font-weight: bold;
+    height:30px;
+    width:150px;
+    border-radius: 1px;
+}
+
+
+#connexion-link {
+    
+}
+
+#connexion-link:hover {
+    text-decoration: none;
+
+/*    box-shadow:
+        rgba(0,0,0,0.15)
+        0px 100px;*/
+    }
+
 
 #cont {
     display: flex;
