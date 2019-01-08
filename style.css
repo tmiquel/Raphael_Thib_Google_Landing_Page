@@ -156,8 +156,13 @@ a:hover {
 	margin-left: 15px;
 }
 
-.nav-icon{
+.nav-icon {
 	margin-top: 9px;
+}
+
+.nav-icon:hover {
+	margin-top: 9px;
+	color: #241f21;
 }
 
 .item-content {
